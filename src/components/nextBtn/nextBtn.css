@@ -1,0 +1,9 @@
+.nextBtn {
+  min-width: 120px;
+  box-sizing: border-box;
+  padding: 10px;
+  background: #000;
+  border: none;
+  color: #fff;
+  font-size: 18px;
+}
