@@ -1,0 +1,26 @@
+.project-type__radio {
+  display: none;
+}
+
+.project-type__radio:checked + .project-type__label {
+  outline: 3px solid #000;
+}
+
+.project-type__image-container {
+  width: 300px;
+  height: 300px;
+  overflow: hidden;
+  margin-bottom: 15px;
+}
+
+.project-type__image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.project-type__title {
+  text-align: center;
+  font-size: 18px;
+}
